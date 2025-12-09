@@ -11,7 +11,7 @@ import {
   DropdownMenuItem,
 } from "./ui/dropdown-menu";
 
-function ThemeToggle() {
+export default function ThemeToggle() {
   const { setTheme } = useTheme();
 
   return (
@@ -37,5 +37,3 @@ function ThemeToggle() {
     </DropdownMenu>
   );
 }
-
-export default ThemeToggle;
