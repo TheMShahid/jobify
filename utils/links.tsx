@@ -7,7 +7,7 @@ type NavLinks = {
   icon: React.ReactNode;
 };
 
-const links: NavLinks[] = [
+const Links: NavLinks[] = [
   {
     href: "/add-job",
     label: "add job",
@@ -25,4 +25,4 @@ const links: NavLinks[] = [
   },
 ];
 
-export default links;
+export default Links;
