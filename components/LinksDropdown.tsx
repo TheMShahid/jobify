@@ -7,7 +7,7 @@ import {
 
 import { AlignLeft } from "lucide-react";
 import { Button } from "./ui/button";
-import links from "@/utils/Links";
+import Links from "@/utils/Links";
 import Link from "next/link";
 
 function LinksDropdown() {
@@ -23,7 +23,7 @@ function LinksDropdown() {
         className="w-52 lg:hidden"
         align="start"
         sideOffset={25}>
-        {links.map((link) => {
+        {Links.map((link) => {
           return (
             <DropdownMenuItem key={link.href}>
               <Link href={link.href} className="flex items-center gap-x-2">
