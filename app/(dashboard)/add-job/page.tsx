@@ -1,5 +1,5 @@
-function AddJob() {
-  return <div className="text-4xl">AddJob</div>;
+function AddJobPage() {
+  return <div className="text-4xl">AddJobPage</div>;
 }
 
-export default AddJob;
+export default AddJobPage;
